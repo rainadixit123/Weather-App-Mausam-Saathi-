@@ -1,2 +1,2 @@
 # Weather-App-Mausam-Saathi-
-A weather application project using HTML,CSS and Javascript.
+A weather application project using ReactJS.
