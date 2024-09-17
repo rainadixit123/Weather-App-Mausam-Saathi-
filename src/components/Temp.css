@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+.heading{
+    color:rgb(58, 2, 58);
+    font-family: 'Times New Roman', Times, serif;
+    padding:1rem;
+}
+
+.img-name img{
+height:6rem;
+width:7rem;
+ }
+.inputdata input{
+    width:20rem;
+    height:2rem;
+    margin-top:1.5rem;
+    border-radius: 5%;
+    margin-left:-5rem;
+ }
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    width:80vw;
+    margin: auto;
+    opacity:0.8;
+    border-radius: 2%;
+    padding:0.5rem;
+    background-color: rgb(224, 221, 221);
+}
+.details{
+    width:80vw;
+    margin: auto;
+    opacity:0.8;
+    border-radius: 1%;
+    padding:0.5rem;
+    background-color: rgb(224, 221, 221);
+    margin-top:3rem;
+} 
+.details img{
+    height:40px;
+    width:40px;
+    margin-left:20px;
+}
+.details-col1{
+    display: grid; 
+    grid-template-columns:1fr 1fr 1fr 1fr ; 
+ margin: auto;
+}
+.details-col2{
+    display: grid; 
+    grid-template-columns:1fr 1fr 1fr 1fr ; 
+ margin: auto;
+}
+.det-small:hover{
+    opacity:0.8;
+    cursor: pointer;
+}
+.det-small{
+    display: flex;
+    border:1px solid rgb(178, 174, 174) ;
+    border-radius: 5%;
+  
+    margin:0.5rem;
+  margin-left:2rem;
+  padding:0.5rem;
+border-color: rgb(146, 145, 145);
+}
+.header{
+    display: flex;
+}
+.display-temp{
+    font-size: 1.7rem;
+}
+.city-name{
+    font-size: 1.7rem;
+    font-family: "Work Sans";
+    font-weight: 500;
+}
+.weather-btn{
+    font-weight: 600;
+    background-color: orange;
+    width:2.5rem;
+    height:2.5rem;
+    font-size: 1rem;
+    border-radius: 50%;
+   margin:1.5rem;
+   margin-right:3rem;
+   padding-left:0.2rem;
+}
+.hours{
+    display: flex;
+    margin: auto;
+}
+.small-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    padding:0.5rem;
+    border:1px solid rgb(146, 145, 145);
+    margin:1rem;
+}
+.head1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color:rgb(58, 2, 58);
+    padding:0.5rem;
+}
